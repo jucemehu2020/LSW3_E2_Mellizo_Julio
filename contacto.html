@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ES">
+<!--SECCION DE METADATOS -->
+<head>
+	<meta charset="utf-8">
+	<title>Mi Auto-biografia</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<!--SECCION DE CONTENIDO WEB-->
+<body id="bodyContacto">
+	<div id="containerContacto">	
+		<header id="cabeceraContacto">
+			<h1 style="color:white">CONTACTO</h1>
+		</header>
+		<nav id="navContacto">
+			<ul>
+				<li id="liContacto">
+					<a href="index.html" style="color:white">ATRAS</a>
+				</li>
+			</ul>			
+		</nav>
+
+		<div class="divider"></div>
+		<center>
+			<form action="ejemplo.php" method="get">
+			<p>Nombre: <input type="text" name="nombre" size="40"></p>
+			<p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+			<p>Sexo:
+				<input type="radio" name="hm" value="h"> Hombre
+				<input type="radio" name="hm" value="m"> Mujer
+			</p>
+			<p>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Borrar">
+			</p>
+		</form>
+		</center>
+		<div class="divider"></div>
+	</body>
+	</html>
